@@ -16,7 +16,7 @@ export class ChartPatternManager {
           await this.drawPattern(chart, patternName)
           this.activePatterns.set(patternName, true)
         } else {
-          console.log(`Removing ${patternName} for ${symbol}`) 
+          console.log(`Removing ${patternName} for ${symbol}`)
           this.removePattern(chart, patternName)
           this.activePatterns.delete(patternName)
         }
