@@ -46,7 +46,7 @@ import { ChartPatternManager } from '@/lib/tvChartFunctions'
 
 export default {
   props: {
-    symbol: { type: String, default: 'AAPL' },
+    symbol: { type: String, default: 'ADBL' },  // Changed default to your symbol
     interval: { type: String, default: 'D' },
     libraryPath: { type: String, default: '/charting_library/' }
   },
@@ -231,10 +231,10 @@ export default {
   border-bottom: none;
 }
 
-/* Pattern-specific colors */
+/* Pattern-specific colors 
 .aqua { background-color: #00bcd4 !important; }
 .blue { background-color: #2196f3 !important; }
 .green { background-color: #4caf50 !important; }
 .red { background-color: #f44336 !important; }
-.purple { background-color: #9c27b0 !important; }
+.purple { background-color: #9c27b0 !important; }*/
 </style>
